@@ -1,0 +1,100 @@
+.navbar
+{
+    display: flex;
+    background-color: #776666;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+.logoimg
+{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+.navlinks
+{
+    display: flex;
+}
+
+li
+{
+    margin: 5px 10px;
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo
+{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.active
+{
+    text-decoration: overline underline 6px orangered;
+}
+
+.header
+{
+    height: 150px;
+    width: 100%;
+    /* background-color: #ce6475; */
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background: linear-gradient( red, violet ); */
+    background-image: radial-gradient(orange, red);
+}
+
+h1
+{
+    margin: 0%;
+}
+
+li a:hover
+{
+    text-decoration: underline hsl(16, 100%, 50%) 5px;
+}
+
+.m
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b
+{
+    background: linear-gradient( violet, red);
+    height: 300px;
+    width:400px;
+    
+}
+
+.h
+{
+    background: radial-gradient(violet, red);
+    height: 300px;
+    width:400px;
+}
+.icon{
+    align-items: center;
+    justify-content: center;
+}
